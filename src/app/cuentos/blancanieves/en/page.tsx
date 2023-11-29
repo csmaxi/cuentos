@@ -23,7 +23,7 @@ const BlancanievesEn = () => {
             </div>
             <audio controls>
                 <source src="/mp3/blancaEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
+                Tu navegador no soporta la etiqueta de audio
             </audio>
             <h1>Snow White</h1>
             <h4>
