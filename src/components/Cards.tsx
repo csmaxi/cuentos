@@ -12,35 +12,16 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { quicksand,fredoca } from "./fonts"
 import Main from "@/components/Main"
+import { Cuentos } from "../../data/datos"
 
 
-interface Cuento {
-    id: string,
-    title: string,
-    image: string,
-    description: string,
-    mp3: string,
-    cuentoes: string,
-    cuentoen: string,
-    videoen: string,
-    video: string,
-}
-
-async function getCuentos(): Promise<Cuento[]> {
-    const result = await fetch('http://localhost:4000/cuentos')
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    return result.json()
-}
-
-async function Cards() {
-
-    const cuentos = await getCuentos()
+function Cards() {
 
     return (
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4 gap-3">
             <Main />
-            {cuentos.map((cuento) => (
+            {Cuentos.map((cuento) => (
                 <Card key={cuento.id} className="flex flex-col justify-between border-2">
                     <CardHeader className="flex-row gap-4 items-center justify-around">
                         <Avatar className="ring ring-offset-2 ring-purple-500" >

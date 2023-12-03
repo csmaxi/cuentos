@@ -1,5 +1,5 @@
-{
-    "cuentos": [
+
+    export const Cuentos = [
         {
             "id": 1,
             "title": "Blancanieves",
@@ -78,4 +78,3 @@
             "video":""
         }
     ]
-}
