@@ -68,11 +68,11 @@
  
 @layer base {
   h1{
-    @apply text-5xl p-8
+    @apply text-6xl pt-8
   }
 
   h4{
-    @apply text-xl
+    @apply text-2xl
   }
 
   * {

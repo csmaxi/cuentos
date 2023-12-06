@@ -1,18 +1,13 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { FaHome } from "react-icons/fa";
+
 
 
 
 const BlancanievesEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex p-6">
-
-                <Link href="/">
-                    <Button className="gap-2">Inicio <FaHome /></Button>
-                </Link>
-
+            <div className="flex ">
                 <Link href="/cuentos/blancanieves/en">
                     <Button>Inglés</Button>
                 </Link>
@@ -21,11 +16,17 @@ const BlancanievesEn = () => {
                 </Link>
 
             </div>
-            <audio controls>
-                <source src="/mp3/blancaEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio
-            </audio>
-            <h1>Snow White</h1>
+            <div>
+                <audio controls>
+                    <source src="/mp3/blancaEN.mp3" type="audio/mp3" />
+                    Tu navegador no soporta la etiqueta de audio
+                </audio>
+            </div>
+
+            <div>
+                <h1>Snow White</h1>
+            </div>
+
             <h4>
                 <br /><br />
                 Once upon a time, in a distant kingdom, there was a beautiful princess named Snow White. She lived happily with her father, the king, until an evil and jealous queen became her stepmother.
@@ -43,7 +44,7 @@ const BlancanievesEn = () => {
                 Upon learning that Snow White was still alive, the wicked queen devised a plan to destroy her, but her evil schemes failed. Snow White, the dwarfs, and the prince joined forces and confronted the evil queen, who was ultimately punished for her wickedness.
                 <br /><br />
                 Since then, Snow White lived happily with the prince and the seven dwarfs in the castle. And so, love, friendship, and kindness triumphed in this fairy tale, proving that there is always a happy ending for those with a pure and noble heart.
-                <br /><span>END</span><br />
+                <br />END<br />
             </h4>
         </div>
     );

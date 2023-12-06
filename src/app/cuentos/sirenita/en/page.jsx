@@ -1,17 +1,14 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { FaHome } from "react-icons/fa";
+
 
 
 const SirenitaEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex p-6">
+            <div className="flex">
 
-                <Link href="/">
-                    <Button className="gap-2">Inicio <FaHome /></Button>
-                </Link>
-
+               
                 <Link href="/cuentos/sirenita/en">
                     <Button>Inglés</Button>
                 </Link>

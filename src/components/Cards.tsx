@@ -1,3 +1,4 @@
+'use client';
 import {
     Card,
     CardContent,
@@ -13,7 +14,7 @@ import Link from "next/link"
 import { quicksand,fredoca } from "./fonts"
 import Main from "@/components/Main"
 import { Cuentos } from "../../data/datos"
-
+import { motion } from "framer-motion"
 
 function Cards() {
 
@@ -40,13 +41,15 @@ function Cards() {
                         <p className={`${fredoca.className} antialiased text-center`}>{cuento.description}</p>
                     </CardContent>
                     <CardFooter className="flex flex-col text-center">
-                        <div className={`${fredoca.className} antialiased text-center`}>
+                        <motion.div 
+                        whileHover={{ scale:1.2 }}
+                        className={`${fredoca.className} antialiased text-center`}>
                             <Link href={cuento.cuentoes}>
                                 <Button className="w-20">Leer</Button>
                             </Link>
 
                             
-                        </div>
+                        </motion.div>
                     </CardFooter>
                 </Card>
             ))}
