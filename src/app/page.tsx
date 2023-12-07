@@ -1,3 +1,4 @@
+
 import Cards from "@/components/Cards";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero"
@@ -6,6 +7,7 @@ import Hero from "@/components/Hero"
 function Home() {
     return (
         <>  
+            
             <Hero />
             <Cards />  
             <Footer />                  

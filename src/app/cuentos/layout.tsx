@@ -11,17 +11,16 @@ export default function CuentosLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="container flex flex-col items-center text-center md:w-1/2 lg:w-1/3 ">
+    <div className="container flex flex-col items-center text-center md:w-1/2 lg:w-1/3">
 
       <Link href="/">
-        <Button className="gap-4 w-40 text-xl mt-2">Inicio <FaHome /></Button>
+        <Button className="gap-4 text-3xl p-5 mt-2 ">Inicio <FaHome /></Button>
       </Link>
       
-      
-
-      <div className={`${fredoca.className} antialiased`}>
+      <div className={`${fredoca.className} antialiased `}>
         {children}
       </div>
     </div>
   );
 }
+

@@ -34,7 +34,7 @@ function Cards() {
                                 {cuento.title.slice(0, 2)}
                             </AvatarFallback>
                         </Avatar>
-                        <CardTitle className={`${quicksand.className} antialiased text-center`}>{cuento.title}</CardTitle>
+                        <CardTitle className={`${quicksand.className}  antialiased text-center`}>{cuento.title}</CardTitle>
                         <CardDescription>3'</CardDescription>
                     </CardHeader>
                     <CardContent>
