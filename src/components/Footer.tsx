@@ -1,4 +1,4 @@
-import { BsTwitterX } from "react-icons/bs";
+import { FaYoutube } from "react-icons/fa";
 import {
     Card,
     CardFooter,
@@ -11,12 +11,13 @@ const Footer = () => {
 
         <Card>
             <CardFooter>
-                <div className="w-full flex flex-col items-center justify-center p-8 rounded-xl bg-[#f8f8f8]">
-                    <p className="p-1 text-lg">by csmaxi</p>
-                    <Link href="https://twitter.com/csmaxinro" className="hover:scale-105" target="_blank">
-                        <BsTwitterX style={{ fontSize: "1em", color: "#000" }} />
-                    </Link>
-                </div>
+            <div className="flex flex-col items-center">
+          
+          <Link href="https://www.youtube.com/channel/UCa3zIsJPWJHbAm9vGoOVnvQ" className="hover:scale-105 " target="_blank">
+            <FaYoutube style={{fontSize: "2em", color: "#FF0000"}} />
+          </Link>
+          <small>YouTube</small>
+        </div>
             </CardFooter>
         </Card>
 
