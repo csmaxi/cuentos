@@ -9,7 +9,7 @@ const PatitoEs = () => {
             <div className="flex flex-col items-center">
                 <div className="flex  flex-col items-center ">
                     <TypographyH1 texto="El Patito Feo"/>
-                    <Imagen src="/image/3.png" alt="Descripción de la imagen" />
+                    <Imagen src="/image/3.jpg" alt="Descripción de la imagen" />
                     <Audio source="/mp3/patitoES.mp3" />
                 </div>
             </div>

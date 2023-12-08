@@ -9,7 +9,7 @@ const SirenitaEn = () => {
             <div className="flex flex-col items-center">
                 <div className="flex  flex-col items-center">
                     <TypographyH1 texto="The Little Mermaid"/>
-                    <Imagen src="/image/6.png" alt="Descripción de la imagen" />
+                    <Imagen src="/image/6.jpg" alt="Descripción de la imagen" />
                     <Audio source="/mp3/sirenitaEN.mp3" />
                 </div>
             </div>

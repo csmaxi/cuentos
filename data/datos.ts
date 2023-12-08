@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Blancanieves",
-            "image": "blancanieves.png",
+            "image": "blancanieves.jpg",
             "description": "En un reino lejano, Blancanieves, con su belleza única, despierta la envidia de su madrastra malvada, desencadenando una historia de valentía y amor junto a sus fieles amigos diminutos.",           
             "mp3": "mp3/blancaES.mp3",
             "cuentoes": "/cuentos/blancanieves/es",
@@ -14,7 +14,7 @@
         {
             "id": 2,
             "title": "Los tres cerditos",
-            "image": "cerditos.png",
+            "image": "cerditos.jpg",
             "description": "En un bosque, tres cerditos construyen sus hogares con distintos materiales. Cuando el astuto lobo amenaza con derribarlas, los cerditos deben demostrar ingenio y cooperación para salvarse.",           
             "mp3": "mp3/cerditosES.mp3",
             "cuentoes": "/cuentos/cerditos/es",
@@ -25,7 +25,7 @@
         {
             "id": 3,
             "title": "El patito feo",
-            "image": "patito.png",
+            "image": "patito.jpg",
             "description": "En un rincón del estanque, nace un patito diferente a los demás, objeto de burlas por su apariencia. A través de desafíos y descubrimientos, el patito feo aprende que su verdadera belleza radica en su singularidad, transformándose en un majestuoso cisne.",           
             "mp3": "mp3/patitoES.mp3",
             "cuentoes": "/cuentos/patito/es",
@@ -36,7 +36,7 @@
         {
             "id": 4,
             "title": "Pinocho",
-            "image": "pinocho.png",
+            "image": "pinocho.jpg",
             "description": "En un taller de carpintería, un anciano fabrica un muñeco de madera llamado Pinocho. Con el deseo ardiente de convertirse en un niño de verdad, Pinocho se embarca en una travesía llena de trampas y lecciones morales, aprendiendo el valor de la honestidad y la lealtad en su camino hacia la humanidad.",            
             "mp3": "mp3/pinochoES.mp3",
             "cuentoes": "/cuentos/pinocho/es",

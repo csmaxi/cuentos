@@ -11,7 +11,7 @@ const BlancanievesEn = () => {
             <div className="flex flex-col items-center">
                 <div className="flex flex-col items-center">
                     <TypographyH1 texto="Snow White"/>
-                    <Imagen src="/image/1.png" alt="Descripción de la imagen" />
+                    <Imagen src="/image/1.jpg" alt="Descripción de la imagen" />
                     <Audio source="/mp3/blancaEN.mp3" />
                 </div>
             </div>

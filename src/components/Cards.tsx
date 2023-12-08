@@ -27,7 +27,7 @@ function Cards() {
                     <CardHeader className="flex-row gap-4 items-center justify-around">
                         <Avatar className="ring ring-offset-2 ring-purple-500" >
                             <AvatarImage
-                                src={`/image/${cuento.id}.png`}
+                                src={`/image/${cuento.id}.jpg`}
                                 alt={cuento.title}
                             />
                             <AvatarFallback>

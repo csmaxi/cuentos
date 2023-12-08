@@ -10,7 +10,7 @@ const LiebreEs = () => {
             <div className="flex flex-col items-center">
                 <div className="flex  flex-col items-center ">
                     <TypographyH1 texto="La Liebre y la Tortuga"/>
-                    <Imagen src="/image/5.png" alt="Descripción de la imagen" />
+                    <Imagen src="/image/5.jpg" alt="Descripción de la imagen" />
                     <Audio source="/mp3/liebreES.mp3" />
                 </div>
             </div>

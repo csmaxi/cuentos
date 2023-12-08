@@ -9,7 +9,7 @@ const PinochoEn = () => {
             <div className="flex flex-col items-center">
                 <div className="flex  flex-col items-center ">
                     <TypographyH1 texto="Pinocchio"/>
-                    <Imagen src="/image/4.png" alt="Descripción de la imagen" />
+                    <Imagen src="/image/4.jpg" alt="Descripción de la imagen" />
                     <Audio source="/mp3/pinochoEN.mp3" />
                 </div>
             </div>

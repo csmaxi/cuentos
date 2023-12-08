@@ -7,7 +7,7 @@ const CaperucitaEs = () => {
         <div className="flex flex-col items-center">
            <div className="flex  flex-col items-center">
                     <TypographyH1 texto="Caperucita Roja"/>
-                    <Imagen src="/image/7.png" alt="Descripción de la imagen" />
+                    <Imagen src="/image/7.jpg" alt="Descripción de la imagen" />
                     <Audio source="/mp3/caperucitaES.mp3" />
                 </div>
             <h4>

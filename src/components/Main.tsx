@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { quicksand } from "./fonts";
 
+
 const Main = () => {
     return (
         <div className="flex flex-col  justify-around text-center border-2 rounded-lg p-6 bg-[#f8f8f8]">
@@ -12,7 +13,7 @@ const Main = () => {
             </div>
             <div className="p-4">
                 <Link href="https://cafecito.app/csmaxi" target="_blank">
-                    <Button  className={`${quicksand.className} text-2xl font-bold `} >
+                    <Button variant={"default"}  className={`${quicksand.className} text-2xl font-bold `} >
                         Invitame un Cafecito
                     </Button>
                 </Link>
