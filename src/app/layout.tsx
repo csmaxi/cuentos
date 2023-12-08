@@ -3,7 +3,7 @@ import './globals.css'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'MINI CUENTOS',
+  title: 'Mini-Cuentos',
   description: 'Cuentos en Inglés y Español',
 }
 
