@@ -12,7 +12,7 @@ const Main = () => {
             </div>
             <div className="p-4">
                 <Link href="https://cafecito.app/csmaxi" target="_blank">
-                    <Button className={`${quicksand.className} text-2xl font-bold `} >
+                    <Button  className={`${quicksand.className} text-2xl font-bold `} >
                         Invitame un Cafecito
                     </Button>
                 </Link>
