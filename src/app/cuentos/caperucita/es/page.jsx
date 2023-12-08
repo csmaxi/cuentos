@@ -1,28 +1,15 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 const CaperucitaEs = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex">
-
-               
-
-                <Link href="/cuentos/caperucita/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/caperucita/es">
-                    <Button>Español</Button>
-                </Link>
-
-            </div>
-            <audio controls>
-                <source src="/mp3/caperucitaES.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>Caperucita Roja</h1>
+           <div className="flex  flex-col items-center">
+                    <TypographyH1 texto="Caperucita Roja"/>
+                    <Imagen src="/image/7.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/caperucitaES.mp3" />
+                </div>
             <h4>
                 <br /><br />
                 Había una vez una niña llamada Caperucita Roja, así apodada debido a la capa roja que siempre llevaba puesta. Un día, su madre le pidió que llevara una cesta de alimentos y medicinas a su abuela, que vivía al otro lado del bosque.

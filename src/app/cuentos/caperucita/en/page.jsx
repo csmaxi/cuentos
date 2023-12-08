@@ -1,27 +1,16 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 
 const CaperucitaEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex">
-
-               
-                <Link href="/cuentos/caperucita/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/caperucita/es">
-                    <Button>Español</Button>
-                </Link>
-
-            </div>
-            <audio controls>
-                <source src="/mp3/caperucitaEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>Little Red Riding Hood</h1>
+            <div className="flex  flex-col items-center">
+                    <TypographyH1 texto="Little Red Riding Hood"/>
+                    <Imagen src="/image/7.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/caperucitaEN.mp3" />
+                </div>
             <h4>
                 <br /><br />
                 Once upon a time, there was a girl named Little Red Riding Hood, named after the red cape she always wore. One day, her mother asked her to take a basket of food and medicine to her grandmother, who lived on the other side of the woods.

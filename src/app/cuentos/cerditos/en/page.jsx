@@ -1,28 +1,21 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 
 
 const CerditosEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex">
-
-                
-
-                <Link href="/cuentos/cerditos/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/cerditos/es">
-                    <Button>Español</Button>
-                </Link>
-
+            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center">
+                    <TypographyH1 texto="The Three Little Pigs"/>
+                    <Imagen src="/image/2.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/cerditosEN.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/cerditosEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>The Three Little Pigs</h1>
+            </div>
             <h4>
                 <br /><br />
                 Once upon a time, there were three little pigs who lived with their mom in the forest. The three pigs were brothers, but they were very different from each other. The eldest was hardworking and always tried to do things right. The middle one was a bit lazy, but he also worked hard. The youngest, on the other hand, was playful and preferred to have fun all the time.

@@ -1,30 +1,20 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 
 const LiebreEs = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex ">
-
-             
-
-                <Link href="/cuentos/liebre/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/liebre/es">
-                    <Button>Español</Button>
-                </Link>
-
+           <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center ">
+                    <TypographyH1 texto="La Liebre y la Tortuga"/>
+                    <Imagen src="/image/5.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/liebreES.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/liebreES.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>
-                La Liebre y la Tortuga
-            </h1>
+            </div>
             <h4>
                 <br /><br />
                 Había una vez una liebre y una tortuga que vivían en el mismo bosque. La liebre era muy orgullosa y siempre se burlaba de la lentitud de la tortuga. Se jactaba de ser la más rápida y presumía de su velocidad constantemente. La tortuga, en cambio, era tranquila y paciente, no le importaban las burlas de la liebre y seguía con su paso lento pero constante.

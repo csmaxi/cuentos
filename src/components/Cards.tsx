@@ -40,16 +40,20 @@ function Cards() {
                     <CardContent>
                         <p className={`${fredoca.className} antialiased text-center`}>{cuento.description}</p>
                     </CardContent>
-                    <CardFooter className="flex flex-col text-center">
+                    <CardFooter className="flex justify-center">
                         <motion.div 
                         whileHover={{ scale:1.2 }}
-                        className={`${fredoca.className} antialiased text-center`}>
-                            <Link href={cuento.cuentoes}>
-                                <Button className="w-20">Leer</Button>
+                        className={`${fredoca.className} antialiased text-center `}>
+                            <Link href={cuento.cuentoen}>
+                                <Button className=" rounded-full">INGLÉS</Button>
                             </Link>
 
-                            
                         </motion.div>
+                            <motion.div whileHover={{ scale:1.2 }}>
+                                <Link href={cuento.cuentoes}>
+                                    <Button className="rounded-full">ESPAÑOL</Button>
+                                </Link>
+                            </motion.div>
                     </CardFooter>
                 </Card>
             ))}

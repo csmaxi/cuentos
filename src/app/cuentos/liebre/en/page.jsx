@@ -1,30 +1,20 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 
 const LiebreEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex ">
-
-                
-
-                <Link href="/cuentos/liebre/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/liebre/es">
-                    <Button>Español</Button>
-                </Link>
-
+            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center ">
+                    <TypographyH1 texto="The Hare and the Tortoise"/>
+                    <Imagen src="/image/5.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/liebreEN.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/liebreEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>
-                The Hare and the Tortoise
-            </h1>
+            </div>
             <h4>
                 <br /><br />
                 Once upon a time, there was a hare and a tortoise who lived in the same forest. The hare was very proud and always made fun of the tortoise&apos;s slowness. It boasted about being the fastest and constantly bragged about its speed. The tortoise, on the other hand, was calm and patient, unaffected by the hare&apos;s taunts, and continued with its slow but steady pace.

@@ -1,28 +1,18 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 
 const BlancanievesEs = () => {
     return (
-        <div className="flex flex-col items-center">
-            <div className="flex">
-
-                <Link href="/cuentos/blancanieves/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/blancanieves/es">
-                    <Button>Español</Button>
-                </Link>
-
+        <div className="flex flex-col items-center ">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center">
+                    <TypographyH1 texto="Blancanieves"/>
+                    <Imagen src="/image/1.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/blancaES.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/blancaES.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>
-                Blancanieves
-            </h1>
             <h4>
                 <br /><br />
                 Había una vez, en un lejano reino, una hermosa princesa llamada Blancanieves. Ella vivía feliz con su padre, el rey, hasta que una malvada y envidiosa reina se convirtió en su madrastra.

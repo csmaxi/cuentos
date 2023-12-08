@@ -1,28 +1,19 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 const PatitoEs = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex">
-
-              
-
-                <Link href="/cuentos/patito/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/patito/es">
-                    <Button>Español</Button>
-                </Link>
-
+          <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center ">
+                    <TypographyH1 texto="El Patito Feo"/>
+                    <Imagen src="/image/3.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/patitoES.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/patitoES.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>El Patito Feo</h1>
+            </div>
             <h4>
                 <br /><br />
                 Había una vez una pata que vivía en un hermoso estanque con otros patos y animales. Un día, esta pata puso un huevo, y cuando nació el patito, todos quedaron sorprendidos. Era diferente a los demás patitos; era más grande, desgarbado y tenía plumaje gris y feo.

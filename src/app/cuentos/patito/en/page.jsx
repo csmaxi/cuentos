@@ -1,28 +1,19 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 const PatitoEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex">
-
-             
-
-                <Link href="/cuentos/patito/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/patito/es">
-                    <Button>Español</Button>
-                </Link>
-
+            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center ">
+                    <TypographyH1 texto="The Ugly Duckling"/>
+                    <Imagen src="/image/3.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/patitoEN.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/patitoEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>The Ugly Duckling</h1>
+            </div>
             <h4>
                 <br /><br />
                 Once upon a time, there was a duck that lived in a beautiful pond with other ducks and animals. One day, this duck laid an egg, and when the duckling hatched, everyone was surprised. It was different from the other ducklings; it was larger, awkward, and had gray and ugly feathers.

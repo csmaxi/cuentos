@@ -1,8 +1,9 @@
+'use client';
 import { fredoca } from "@/components/fonts";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FaHome } from "react-icons/fa";
-
+import {motion} from "framer-motion"
 
 export default function CuentosLayout({
 
@@ -11,12 +12,14 @@ export default function CuentosLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="container flex flex-col items-center text-center md:w-1/2 lg:w-1/3">
+    <div className="container flex flex-col items-center text-center md:w-1/2 lg:w-1/3 bg-white rounded-xl">
 
-      <Link href="/">
-        <Button className="gap-4 text-3xl p-5 mt-2 ">Inicio <FaHome /></Button>
-      </Link>
-      
+      <motion.div whileHover={{ scale:1.2 }}>
+        <Link href="/">
+          <Button variant={'secondary'} className=" text-2xl gap-2 mt-2 border-2">Inicio <FaHome /></Button>
+        </Link>
+        
+      </motion.div>
       <div className={`${fredoca.className} antialiased `}>
         {children}
       </div>

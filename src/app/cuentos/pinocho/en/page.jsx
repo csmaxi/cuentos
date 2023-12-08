@@ -1,28 +1,19 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 const PinochoEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex">
-
-              
-
-                <Link href="/cuentos/pinocho/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/pinocho/es">
-                    <Button>Español</Button>
-                </Link>
-
+           <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center ">
+                    <TypographyH1 texto="Pinocchio"/>
+                    <Imagen src="/image/4.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/pinochoEN.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/pinochoEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>Pinocchio</h1>
+            </div>
             <h4>
                 <br /><br />
                 Once upon a time, there was a carpenter named Geppetto who lived alone and longed for a child. One day, he decided to carve a wooden puppet in the shape of a boy and named him Pinocchio. While he was carving the puppet, something magical happened: Pinocchio came to life and started moving and talking like a real boy, although he still retained his wooden form.

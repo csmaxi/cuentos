@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div className="flex flex-col  justify-around text-center border-2 rounded-lg p-6 bg-[#f8f8f8]">
             <div className={`${quicksand.className} antialiased`} >
-                <p className="text-xl font-medium text-gray-600">
+                <p className="text-lg font-bold">
                     Sumérgete en pequeñas grandes historias. Nuestra página de cuentos cortos te invita a disfrutar de emocionantes narrativas en dos idiomas.
                 </p>
             </div>

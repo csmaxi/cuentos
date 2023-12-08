@@ -1,31 +1,22 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 
 
 const BlancanievesEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex ">
-                <Link href="/cuentos/blancanieves/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/blancanieves/es">
-                    <Button>Español</Button>
-                </Link>
-
+            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center">
+                    <TypographyH1 texto="Snow White"/>
+                    <Imagen src="/image/1.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/blancaEN.mp3" />
+                </div>
             </div>
-            <div>
-                <audio controls>
-                    <source src="/mp3/blancaEN.mp3" type="audio/mp3" />
-                    Tu navegador no soporta la etiqueta de audio
-                </audio>
             </div>
 
-            <div>
-                <h1>Snow White</h1>
-            </div>
 
             <h4>
                 <br /><br />

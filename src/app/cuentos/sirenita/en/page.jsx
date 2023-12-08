@@ -1,27 +1,19 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 const SirenitaEn = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex">
-
-               
-                <Link href="/cuentos/sirenita/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/sirenita/es">
-                    <Button>Español</Button>
-                </Link>
-
+          <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center">
+                    <TypographyH1 texto="The Little Mermaid"/>
+                    <Imagen src="/image/6.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/sirenitaEN.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/sirenitaEN.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>The Little Mermaid</h1>
+            </div>
             <h4>
                 <br /><br />
                 Once upon a time, at the bottom of the ocean, there lived a young and beautiful mermaid named Ariel. She lived in an underwater kingdom alongside her father, King Triton, and her mermaid sisters. Ariel was curious and dreamed of exploring the world above the surface, despite her father&apos;s warnings about the dangers of humans.

@@ -1,28 +1,19 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-
-
+import Imagen from "@/components/Imagen";
+import TypographyH1 from "@/components/Titulo";
+import Audio from "@/components/Mp3";
 
 const SirenitaEs = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex ">
-
-               
-
-                <Link href="/cuentos/sirenita/en">
-                    <Button>Inglés</Button>
-                </Link>
-                <Link href="/cuentos/sirenita/es">
-                    <Button>Español</Button>
-                </Link>
-
+           <div className="flex flex-col">
+            <div className="flex flex-col items-center">
+                <div className="flex  flex-col items-center">
+                    <TypographyH1 texto="La Sirenita"/>
+                    <Imagen src="/image/6.png" alt="Descripción de la imagen" />
+                    <Audio source="/mp3/sirenitaES.mp3" />
+                </div>
             </div>
-            <audio controls>
-                <source src="/mp3/sirenitaES.mp3" type="audio/mp3" />
-                Tu navegador no soporta la etiqueta de audio.
-            </audio>
-            <h1>La sirenita</h1>
+            </div>
             <h4>
                 <br /><br />
                 Había una vez, en el fondo del océano, una joven y hermosa sirena llamada Ariel. Ella vivía en un reino submarino junto a su padre, el rey Tritón, y sus hermanas sirenas. Ariel era curiosa y soñaba con explorar el mundo de la superficie, a pesar de las advertencias de su padre sobre los peligros de los humanos.
