@@ -3,13 +3,10 @@
 import { gochi } from "@/components/fonts";
 import { annie } from "@/components/fonts";
 
-
-
-
 const Hero = () => {
   return (
-    <section className=" flex justify-center md:h-64 m-auto pt-6 xl:pt-2 rounded-xl ">
-      <div className=" text-black flex h-50  p-2 flex-col text-center md:flex-row rounded-lg bg-[#f8f8f8]">
+    <section className="flex justify-center md:h-64 pt-6 xl:pt-2 rounded-xl ">
+      <div className=" text-black flex h-50 flex-col text-center md:flex-row rounded-lg">
         <div className="flex flex-col justify-center">
           <h2 className={`${gochi.className} text-6xl`}>
             MINI CUENTOS
