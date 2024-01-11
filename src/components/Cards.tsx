@@ -19,9 +19,9 @@ import { motion } from "framer-motion"
 function Cards() {
 
     return (
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4 gap-3">
-            <Main />
+        
+        <div className="w-5/6 m-auto grid  lg:grid-cols-3 p-4 gap-5">
+            
             {Cuentos.map((cuento) => (
                 <Card key={cuento.id} className="flex flex-col justify-between border-2">
                     <CardHeader className="flex-row gap-4 items-center justify-around">
@@ -42,14 +42,14 @@ function Cards() {
                     </CardContent>
                     <CardFooter className="flex justify-center">
                         <motion.div 
-                        whileHover={{ scale:1.2 }}
+                        whileHover={{ scale:1.1 }}
                         className={`${fredoca.className} antialiased text-center `}>
                             <Link href={cuento.cuentoen}>
                                 <Button className=" rounded-full">Inglés</Button>
                             </Link>
 
                         </motion.div>
-                            <motion.div whileHover={{ scale:1.2 }}>
+                            <motion.div whileHover={{ scale:1.1 }}>
                                 <Link href={cuento.cuentoes}>
                                     <Button className="rounded-full">Español</Button>
                                 </Link>
