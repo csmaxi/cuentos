@@ -20,7 +20,7 @@ function Cards() {
 
     return (
         
-        <div className="w-5/6 m-auto grid  lg:grid-cols-3 p-4 gap-5">
+        <div className="w-5/6 m-auto grid  lg:grid-cols-2 xl:grid-cols-3 p-4 gap-5">
             
             {Cuentos.map((cuento) => (
                 <Card key={cuento.id} className="flex flex-col justify-between border-2">
