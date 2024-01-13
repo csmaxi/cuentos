@@ -25,7 +25,7 @@ function Cards() {
             {Cuentos.map((cuento) => (
                 <Card key={cuento.id} className="flex flex-col justify-between border-2">
                     <CardHeader className="flex-row gap-4 items-center justify-around">
-                        <Avatar className="ring ring-offset-2 ring-purple-500" >
+                        <Avatar className="ring ring-offset-2 ring-slate-800" >
                             <AvatarImage
                                 src={`/image/${cuento.id}.jpg`}
                                 alt={cuento.title}

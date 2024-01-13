@@ -7,7 +7,7 @@ import Main from "@/components/Main";
 function Home() {
     return (
         <>  
-            <Hero />          
+                   
             <Main />
             <Cards />  
             <Footer />                   
