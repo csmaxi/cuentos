@@ -21,8 +21,9 @@ function Cards() {
     return (
         
         <div className="w-5/6 m-auto grid  lg:grid-cols-2 xl:grid-cols-3 p-4 gap-5">
-            
+            <Main />
             {Cuentos.map((cuento) => (
+                
                 <Card key={cuento.id} className="flex flex-col justify-between border-2">
                     <CardHeader className="flex-row gap-4 items-center justify-around">
                         <Avatar className="ring ring-offset-2 ring-slate-800" >
