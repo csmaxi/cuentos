@@ -14,9 +14,9 @@ export default function CuentosLayout({
   return (
     <div className="container flex flex-col items-center text-center  lg:w-1/3 bg-white rounded-xl">
 
-      <motion.div whileHover={{ scale:1.2 }}>
+      <motion.div whileHover={{ scale:1.1 }}>
         <Link href="/">
-          <Button variant={'secondary'} className=" text-2xl gap-2 mt-2 border-2">Inicio <FaHome /></Button>
+          <Button variant={'outline'} className=" text-2xl  gap-2 mt-2 border">Inicio <FaHome /></Button>
         </Link>
         
       </motion.div>
