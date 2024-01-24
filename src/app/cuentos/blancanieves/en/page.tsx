@@ -2,8 +2,6 @@ import Imagen from "@/components/Imagen";
 import TypographyH1 from "@/components/Titulo";
 import Audio from "@/components/Mp3";
 
-
-
 const BlancanievesEn = () => {
     return (
         <div className="flex flex-col items-center">
