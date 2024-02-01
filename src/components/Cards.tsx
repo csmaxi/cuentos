@@ -20,7 +20,7 @@ function Cards() {
 
     return (
         
-        <div className="w-5/6 m-auto grid  lg:grid-cols-2 xl:grid-cols-3 p-4 gap-5">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-5">
             <Main />
             {Cuentos.map((cuento) => (
                 
