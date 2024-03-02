@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-8 text-white mt-24 rounded-lg flex justify-between">
-            <p className="text-xl">Mini cuentos</p>
+        <div className="border-2 m-2 p-8 mt-24 rounded-lg flex justify-between">
+            <p className="text-xl">mini cuentos</p>
             <p className="text-xl">2024</p>
         </div>
     );
