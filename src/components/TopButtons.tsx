@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 
 function Top() {
     return (
-        <div className="flex justify-between bg-slate-800 text-white p-4">
+        <div className="flex justify-between bg-gradient-to-r from-cyan-500 to-blue-500 text-white p-4 rounded-lg">
             <div>
                 <Link href="/">
                     <h2 className="text-5xl">MC</h2>

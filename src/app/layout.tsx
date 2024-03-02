@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react';
-import { fredoca } from '@/components/fonts';
+import { gochi } from '@/components/fonts';
 
 export const metadata: Metadata = {
   title: 'Mini-Cuentos',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${fredoca.className} antialiased`}>{children}</body>
+      <body className={`${gochi.className} antialiased`}>{children}</body>
       <Analytics />
     </html>
   )

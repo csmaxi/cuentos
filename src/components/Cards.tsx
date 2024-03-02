@@ -11,8 +11,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { quicksand,fredoca } from "./fonts"
-import Main from "@/components/Main"
+import { quicksand,fredoca,gochi } from "./fonts"
 import { Cuentos } from "../../data/datos"
 import { motion } from "framer-motion"
 
@@ -20,8 +19,8 @@ function Cards() {
 
     return (
         
-        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-5 m-2">
-            <Main />
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5 m-2 p-2 ">
+            {/* <Main /> */}
             {Cuentos.map((cuento) => (
                 
                 <Card key={cuento.id} className="flex flex-col justify-between border-2">
@@ -44,7 +43,7 @@ function Cards() {
                     <CardFooter className="flex justify-center gap-2">
                         <motion.div 
                         whileHover={{ scale:1.1 }}
-                        className={`${fredoca.className} antialiased text-center `}>
+                        className={`${gochi.className} antialiased text-center `}>
                             <Link href={cuento.cuentoen}>
                                 <Button variant={"outline"} className="hover:text-red-600">Inglés</Button>
                             </Link>

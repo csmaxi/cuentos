@@ -1,22 +1,9 @@
-
-import {
-    Card,
-    CardFooter,
-} from "@/components/ui/card"
-
-import Link from "next/link";
-
 const Footer = () => {
     return (
-
-        <Card>
-            <CardFooter className="bg-slate-800 p-8 text-white mt-24">
-                <small>Mini cuentos 2024.</small>
-            </CardFooter>
-        </Card>
-
-
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-8 text-white mt-24 rounded-lg flex justify-between">
+            <p className="text-xl">Mini cuentos</p>
+            <p className="text-xl">2024</p>
+        </div>
     );
 }
-
 export default Footer;
