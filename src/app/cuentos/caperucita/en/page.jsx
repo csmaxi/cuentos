@@ -24,7 +24,7 @@ const CaperucitaEn = () => {
                 In some versions of the story, a woodcutter heard Little Red Riding Hood&apos;s screams and rushed to rescue her. In other versions, Little Red Riding Hood and her grandmother are saved by the woodcutter before the wolf can harm them. Either way, the wolf is defeated, and Little Red Riding Hood and her grandmother are safe.
                 <br /><br />
                 The story of Little Red Riding Hood is a cautionary tale about the dangers of talking to strangers and the importance of following adults&apos; instructions. It also reflects the idea that appearances can be deceptive and that it is crucial to be cautious in unfamiliar situations
-                <br /><span>END</span><br />
+                <br /><br />
             </h4>
         </div>
     );

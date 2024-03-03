@@ -27,7 +27,7 @@ const SirenitaEn = () => {
                 Eric and Ariel were reunited and kissed, breaking the spell. Ariel debated whether to stay with Eric or return to the ocean, but she ultimately chose to stay with Eric and live as a human. King Triton accepted her choice and transformed her into a human permanently. While she had to sacrifice her voice, Ariel found the love and happiness she had longed for.
                 <br /><br />
                 The story of The Little Mermaid is a tale of love, sacrifice, and the quest for identity. Ariel learns valuable lessons about the consequences of her choices and the importance of being true to oneself. The story explores themes of overcoming obstacles and fighting for what one desires, as well as the idea that true love transcends differences.
-                <br /><span>END</span><br />
+                <br /><br />
             </h4>
         </div>
     );

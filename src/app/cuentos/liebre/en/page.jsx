@@ -28,7 +28,7 @@ const LiebreEn = () => {
                 The tortoise won the race, leaving everyone astonished. The hare felt embarrassed and humiliated by its arrogance and conceited attitude. It learned the lesson that consistency and patience can lead to success, even if you&apos;re not the fastest. The tortoise demonstrated that perseverance and steady effort are valuable and that haste and arrogance don&apos;t always lead to victory.
                 <br /><br />
                 The story of The Hare and the Tortoise teaches the importance of humility, consistency, and perseverance, and how overconfidence can lead to defeat.
-                <br /><span>END</span><br />
+                <br /><br />
             </h4>
         </div>
     );

@@ -27,7 +27,7 @@ const PinochoEn = () => {
                 After facing various trials and overcoming challenges, Pinocchio finally proved his bravery and selflessness by rescuing Geppetto from the belly of the whale. As a reward for his actions, the Blue Fairy transformed Pinocchio into a real boy, freeing him from his wooden form. Pinocchio had learned the importance of honesty, kindness, and obedience.
                 <br /><br />
                 The story of Pinocchio is a tale about the significance of being truthful, brave, and kind, as well as the consequences of our actions. Through his adventures, Pinocchio evolved from a mischievous puppet to a real boy who learned valuable life lessons and proper behavior.
-                <br /><span>END</span><br />
+                <br /><br />
             </h4>
         </div>
     );

@@ -27,7 +27,7 @@ const SirenitaEs = () => {
                 Eric y Ariel se reunieron y se besaron, rompiendo el hechizo. Ariel debatió si quedarse con Eric o volver al océano, pero finalmente eligió quedarse con Eric y vivir como humana. El rey Tritón aceptó su elección y la transformó en humana permanentemente. Aunque tuvo que sacrificar su voz, Ariel encontró el amor y la felicidad que tanto anhelaba.
                 <br /><br />
                 El cuento de La Sirenita es una historia de amor, sacrificio y la búsqueda de la identidad. Ariel aprende valiosas lecciones sobre las consecuencias de sus decisiones y la importancia de ser uno mismo. La historia explora temas de superar obstáculos y luchar por lo que se desea, así como la idea de que el amor verdadero trasciende las diferencias.
-                <br /><span>FIN</span><br />
+                <br /><br />
             </h4>
         </div>
     );

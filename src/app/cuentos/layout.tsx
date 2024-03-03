@@ -12,7 +12,7 @@ export default function CuentosLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="container flex flex-col items-center text-center  lg:w-1/3 bg-white rounded-xl">
+    <div className="container flex flex-col items-center text-center  lg:w-1/3 bg-gray-50 rounded-xl border-2">
 
       <motion.div whileHover={{ scale:1.1 }}>
         <Link href="/">

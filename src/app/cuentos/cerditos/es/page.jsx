@@ -41,7 +41,7 @@ const Cerditos = () => {
                 El lobo sopló con todas sus fuerzas una y otra vez, pero la casa de ladrillos era tan fuerte que no pudo derribarla. El lobo finalmente se dio por vencido y se marchó, jurando vengarse.
                 <br /><br />
                 Los tres cerditos aprendieron una valiosa lección. El trabajo duro y la planificación valen la pena, y es importante ser responsable y hacer las cosas bien. Desde entonces, vivieron felices y seguros en su casa de ladrillos, cuidándose mutuamente y disfrutando de la vida en el bosque.
-                <br /><span>FIN</span><br />
+                <br /><br />
             </h4>
         </div>
     );

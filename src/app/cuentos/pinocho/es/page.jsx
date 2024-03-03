@@ -28,7 +28,7 @@ const PinochoEs = () => {
                 Después de enfrentar varias pruebas y superar desafíos, Pinocho finalmente demostró su valentía y desinterés al rescatar a Geppetto de la barriga de la ballena. Como recompensa por sus acciones, el Hada Azul convirtió a Pinocho en un niño de verdad, liberándolo de su forma de madera. Pinocho había aprendido la importancia de la honestidad, la bondad y la obediencia.
                 <br /><br />
                 El cuento de Pinocho es una historia sobre la importancia de ser honesto, valiente y amable, así como sobre las consecuencias de nuestras acciones. A través de sus aventuras, Pinocho pasó de ser un muñeco travieso a un niño de verdad que aprendió valiosas lecciones sobre la vida y el comportamiento adecuado.</h4>
-            <br />FIN<br />
+            <br /><br />
 
 
 

@@ -29,7 +29,7 @@ const PatitoEs = () => {
                 Los cisnes del lago lo aceptaron con cariño y se convirtió en parte de su grupo. El patito feo finalmente encontró su lugar, y nunca más se sintió solo o rechazado.
                 <br /><br />
                 El cuento del patito feo nos enseña que la belleza va más allá del aspecto físico y que el valor real de una persona radica en su interior y en cómo se siente consigo misma. A veces, la diferencia y la dificultad pueden llevarnos a descubrir nuestro verdadero potencial y encontrar nuestro lugar en el mundo.</h4>
-            <br /><span>FIN</span><br />
+            <br /><br />
         </div>
     );
 }

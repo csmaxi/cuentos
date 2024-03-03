@@ -23,7 +23,7 @@ const CaperucitaEs = () => {
                 En algunas versiones del cuento, un leñador escuchó los gritos de Caperucita Roja y corrió a rescatarla. En otras versiones, Caperucita Roja y su abuela son rescatadas por el leñador antes de que el lobo las lastime. De cualquier manera, el lobo es derrotado y Caperucita Roja y su abuela están a salvo.
                 <br /><br />
                 El cuento de Caperucita Roja es una advertencia sobre los peligros de hablar con extraños y la importancia de seguir las instrucciones de los adultos. También refleja la idea de que la apariencia puede ser engañosa y que es crucial ser cauteloso en situaciones desconocidas.
-                <br />FIN<br />
+                <br /><br />
             </h4>
         </div>
     );

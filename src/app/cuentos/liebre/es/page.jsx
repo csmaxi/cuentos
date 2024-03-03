@@ -28,7 +28,7 @@ const LiebreEs = () => {
                 La tortuga ganó la carrera, dejando a todos asombrados. La liebre se sintió avergonzada y humillada por su arrogancia y su actitud presumida. Aprendió la lección de que la constancia y la paciencia pueden llevar al éxito, incluso si no se es el más rápido. La tortuga demostró que la perseverancia y el esfuerzo constante son valiosos, y que la prisa y la arrogancia no siempre conducen al triunfo.
                 <br /><br />
                 El cuento de La Liebre y la Tortuga enseña la importancia de la humildad, la constancia y la perseverancia, y cómo el exceso de confianza puede llevar a la derrota.
-                <br /><span>FIN</span><br />
+                <br /><br />
             </h4>
         </div>
     );

@@ -30,7 +30,7 @@ const BlancanievesEs = () => {
                 La malvada reina, al enterarse de que Blancanieves seguía viva, preparó un plan para destruirla, pero sus malvados planes fracasaron. Blancanieves, los enanitos y el príncipe se unieron y enfrentaron a la malvada reina, quien finalmente fue castigada por sus maldades.
                 <br /><br />
                 Desde entonces, Blancanieves vivió feliz junto al príncipe y los siete enanitos en el castillo. Y así, el amor, la amistad y la bondad triunfaron en este cuento de hadas, demostrando que siempre hay un final feliz para aquellos que tienen un corazón puro y noble.
-                <br /><span>FIN</span><br />
+                <br /><br />
             </h4>
         </div>
 

@@ -29,7 +29,7 @@ const PatitoEn = () => {
                 The swans in the lake accepted him with affection, and he became part of their group. The ugly duckling finally found his place and never felt lonely or rejected again.
                 <br /><br />
                 The story of The Ugly Duckling teaches us that beauty goes beyond physical appearance and that a person&apos;s real value lies in their inner qualities and how they feel about themselves. Sometimes, differences and difficulties can lead us to discover our true potential and find our place in the world.</h4>
-            <br /><span>END</span><br />
+            <br /><br />
         </div>
     );
 }

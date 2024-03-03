@@ -33,7 +33,7 @@ const BlancanievesEn = () => {
                 Upon learning that Snow White was still alive, the wicked queen devised a plan to destroy her, but her evil schemes failed. Snow White, the dwarfs, and the prince joined forces and confronted the evil queen, who was ultimately punished for her wickedness.
                 <br /><br />
                 Since then, Snow White lived happily with the prince and the seven dwarfs in the castle. And so, love, friendship, and kindness triumphed in this fairy tale, proving that there is always a happy ending for those with a pure and noble heart.
-                <br />END<br />
+                <br /><br />
             </h4>
         </div>
     );

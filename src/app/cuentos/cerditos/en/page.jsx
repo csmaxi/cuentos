@@ -39,7 +39,7 @@ const CerditosEn = () => {
                 The wolf huffed and puffed with all his might, but the brick house was so strong that he couldn&apos;t knock it down. The wolf finally gave up and left, vowing to get revenge.
                 <br /><br />
                 The three pigs learned a valuable lesson. Hard work and planning pay off, and it&apos;s important to be responsible and do things right. From then on, they lived happily and safely in their brick house, taking care of each other and enjoying life in the forest.</h4>
-            <br /><span>END</span><br />
+            <br /><br />
         </div>
     );
 }
