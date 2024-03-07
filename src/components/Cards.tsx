@@ -19,8 +19,8 @@ function Cards() {
 
     return (
 
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5 m-2 p-2 ">
-            {/* <Main /> */}
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5 lg:m-2 lg:p-2 ">
+            
             {Cuentos.map((cuento) => (
 
                 <Card key={cuento.id} className="flex flex-col justify-between border-2">
@@ -38,7 +38,7 @@ function Cards() {
                         <CardDescription>3'</CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <p className={`${fredoca.className} antialiased text-center text-lg`}>{cuento.description}</p>
+                        <p className={`${fredoca.className} antialiased text-center p-4 text-lg`}>{cuento.description}</p>
                     </CardContent>
                     <CardFooter className="flex justify-center gap-2">
                         <motion.div
