@@ -22,7 +22,7 @@ function Cards() {
       {Cuentos.map((cuento) => (
         <Card
           key={cuento.id}
-          className="flex flex-col justify-between border-8 shadow border-border"
+          className="flex flex-col justify-between border-2 shadow border-border"
         >
           <CardHeader className="flex-row gap-4 items-center justify-around">
             {/* <Avatar className="ring ring-offset-2 ring-slate-800" >
@@ -34,13 +34,13 @@ function Cards() {
                                 {cuento.title.slice(0, 2)}
                             </AvatarFallback>
                         </Avatar> */}
-            <motion.div whileHover={{ scale: 1.1 }}>
+            <div>
               <CardTitle
-                className={`${quicksand.className} antialiased text-center cursor-grab border-8 shadow p-2 rounded-lg border-border text-blue-700`}
+                className={`${quicksand.className} antialiased p-2 text-blue-800`}
               >
                 {cuento.title}
               </CardTitle>
-            </motion.div>
+            </div>
 
             {/* <CardDescription>3'</CardDescription> */}
           </CardHeader>
@@ -52,7 +52,7 @@ function Cards() {
                 alt={cuento.title}
                 width={300}
                 height={300}
-                className="rounded-full my-3  border-8 hover:border-blue-400 cursor-grabbing"
+                className="rounded-full my-3  border-8 hover:border-blue-400 cursor-grab"
               />
             </motion.div>
 
