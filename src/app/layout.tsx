@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${gochi.className} antialiased`}>{children}</body>
+      <body>{children}</body>
       <Analytics />
     </html>
   )

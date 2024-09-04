@@ -1,28 +1,45 @@
-import { gochi } from "@/components/fonts";
-import { annie } from "@/components/fonts";
+"use client";
+
 import Link from "next/link";
-import { AiOutlineCoffee } from "react-icons/ai";
-const Hero = () => {
+
+function Navbar() {
   return (
+    <nav className="bg-gray-900 text-white py-4 shadow-lg">
+      <div className="container mx-auto px-6 flex justify-between items-center">
+        {/* Logo o Título */}
+        <div className="text-2xl font-semibold tracking-tight">
+          <Link href="/">
+            <span className="hover:text-gray-300 transition-colors cursor-pointer">Tu Logo</span>
+          </Link>
+        </div>
 
+        {/* Enlaces de Navegación */}
+        <div className="hidden md:flex space-x-8">
+          <Link href="/">
+            <span className="text-lg font-medium hover:text-gray-300 transition-colors cursor-pointer">Inicio</span>
+          </Link>
+          <Link href="/">
+            <span className="text-lg font-medium hover:text-gray-300 transition-colors cursor-pointer">Blog</span>
+          </Link>
+          <Link href="/">
+            <span className="text-lg font-medium hover:text-gray-300 transition-colors cursor-pointer">Recursos</span>
+          </Link>
+          <Link href="/">
+            <span className="text-lg font-medium hover:text-gray-300 transition-colors cursor-pointer">FAQ</span>
+          </Link>
+        </div>
 
-    <div className="flex text-center justify-between p-4 m-6 border-2 rounded-lg items-center">
-      <h2 className={`${gochi.className} text-3xl border-2 p-2 rounded-lg`}>
-        MINI <br />CUENTOS
-      </h2>
-      <span className={`${annie.className} text-xl lg:text-3xl  text-purple-700`}>Cuentos en Inglés<br /> y Español</span>
-      <div className="flex flex-col items-center">
-
-        <Link href="https:cafecito.app/csmaxi" className="hover:scale-105 " target="_blank">
-          <AiOutlineCoffee style={{ fontSize: "2em", color: "#000" }} />
-        </Link>
-        <small>Cafecito</small>
+        {/* Botón de Llamada a la Acción */}
+        <div>
+          <Link href="">
+            <span className="bg-blue-600 text-white px-6 py-2 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors cursor-pointer">
+              Contáctanos
+            </span>
+          </Link>
+        </div>
       </div>
-    </div>
-     
-
-
+    </nav>
   );
 }
 
-export default Hero;
+export default Navbar;
