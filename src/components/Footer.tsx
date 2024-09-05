@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-6 mt-16">
       <div className="container mx-auto px-6 flex flex-col items-center">
-        <div className="text-center mb-4">
+        {/* <div className="text-center mb-4">
           <h2 className="text-xl font-semibold mb-2">Suscríbete a Nuestro Boletín</h2>
           <p className="text-gray-300 mb-4">Recibe las últimas noticias y actualizaciones directamente en tu bandeja de entrada.</p>
           <Button
@@ -16,10 +16,10 @@ function Footer() {
           >
             Suscribirse
           </Button>
-        </div>
+        </div> */}
         
         <div className="text-center">
-          <ul className="flex space-x-4 mb-4">
+          {/* <ul className="flex space-x-4 mb-4">
             <li>
               <Link href="/" className="hover:text-gray-400 transition-colors">
                 Sobre Nosotros
@@ -35,8 +35,8 @@ function Footer() {
                 Contacto
               </Link>
             </li>
-          </ul>
-          <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Tu Empresa. Todos los derechos reservados.</p>
+          </ul> */}
+          <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} MiniCuentos. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

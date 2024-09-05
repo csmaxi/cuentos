@@ -9,12 +9,12 @@ function Navbar() {
         {/* Logo o Título */}
         <div className="text-2xl font-semibold tracking-tight">
           <Link href="/">
-            <span className="hover:text-gray-300 transition-colors cursor-pointer">Tu Logo</span>
+            <span className="hover:text-gray-300 transition-colors cursor-pointer">MiniCuentos</span>
           </Link>
         </div>
 
         {/* Enlaces de Navegación */}
-        <div className="hidden md:flex space-x-8">
+        {/* <div className="hidden md:flex space-x-8">
           <Link href="/">
             <span className="text-lg font-medium hover:text-gray-300 transition-colors cursor-pointer">Inicio</span>
           </Link>
@@ -27,16 +27,16 @@ function Navbar() {
           <Link href="/">
             <span className="text-lg font-medium hover:text-gray-300 transition-colors cursor-pointer">FAQ</span>
           </Link>
-        </div>
+        </div> */}
 
         {/* Botón de Llamada a la Acción */}
-        <div>
+        {/* <div>
           <Link href="">
             <span className="bg-blue-600 text-white px-6 py-2 rounded-full text-lg font-semibold hover:bg-blue-700 transition-colors cursor-pointer">
               Contáctanos
             </span>
           </Link>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

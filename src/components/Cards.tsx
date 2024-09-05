@@ -17,11 +17,11 @@ import Image from "next/image";
 
 function Cards() {
   return (
-    <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 lg:m-4 lg:w-2/3 lg:mx-auto">
+    <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 lg:m-4 lg:w-2/3 lg:mx-auto" id="ir">
       {Cuentos.map((cuento) => (
         <Card
           key={cuento.id}
-          className="flex flex-col justify-between border border-gray-300 shadow-lg rounded-xl transition-transform transform hover:scale-105"
+          className="flex flex-col justify-between border border-gray-300 shadow-lg rounded-xl"
         >
           <CardHeader className="flex flex-col items-center gap-4 p-4">
             <div>
@@ -37,8 +37,8 @@ function Cards() {
             <Image
               src={`/image/${cuento.id}.jpg`}
               alt={cuento.title}
-              width={250}
-              height={250}
+              width={200}
+              height={200}
               className="rounded-full border-4 border-blue-400 mb-4"
             />
           </CardContent>
